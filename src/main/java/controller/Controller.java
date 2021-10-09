@@ -16,7 +16,6 @@ public class Controller implements KeyListener {
     public PanelTetris panel;
     public GameManager gameManager;
     public Controller() {
-        System.out.println("here");
         panel=new PanelTetris(this);
 
         frame=new FrameTetris(panel,this);

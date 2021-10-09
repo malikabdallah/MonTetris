@@ -107,7 +107,6 @@ public class GameManager extends Observable {
         } else {
             fixToWell();
         }
-        System.out.println("drop down");
         //controller.panel.repaint();
         setChanged();
         notifyObservers();

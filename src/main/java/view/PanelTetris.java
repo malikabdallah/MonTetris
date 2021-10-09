@@ -81,8 +81,8 @@ public class PanelTetris extends JPanel implements Observer  {
 
 
     @Override
-    public void update(Observable o, Object arg) {
-        System.out.println("updated ");
+    public void update(Observable o, Object arg){
+
         repaint();
     }
 }
