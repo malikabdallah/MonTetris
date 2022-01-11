@@ -68,6 +68,7 @@ public class GameManager extends Observable {
 
     // Collision test for the dropping piece
     private boolean collidesAt(int x, int y, int rotation) {
+
         for (Point p : FormsConstantes.Tetraminos[currentPiece][rotation]) {
             if (well[p.x + x][p.y + y] != Color.BLACK) {
                 return true;
